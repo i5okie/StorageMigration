@@ -1,6 +1,6 @@
 FROM quay.io/openshift/origin-cli:latest
 
-LABEL maintainer="Jeff Kelly <jeff.kelly@arctiq.ca>
+LABEL maintainer="Jeff Kelly <jeff.kelly@arctiq.ca>"
 LABEL io.k8s.description="Storage Migration Placeholder"
 
 WORKDIR /
