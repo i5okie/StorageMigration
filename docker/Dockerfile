@@ -5,6 +5,7 @@ LABEL io.k8s.description="Storage Migration Placeholder"
 
 WORKDIR /
 
+RUN yum update
 RUN yum -y install rsync curl && yum clean all -y
 
 RUN mkdir /source /target
